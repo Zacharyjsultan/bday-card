@@ -1,10 +1,10 @@
 body {
   display: flex;
   justify-content: center;
-  align-items: center;
-
+  align-items: space-evenly;
   height: 100vh;
-  background-color: #073b4c;
+  background-color: #256c84;
+  background-image: url("./CHungus.jpg");
 }
 
 .birthdayCard {
@@ -12,14 +12,17 @@ body {
   width: 250px;
   height: 350px;
   cursor: pointer;
-
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   transform-style: preserve-3d;
   transform: perspective(2500px);
   transition: 1s;
+  border: black 1px solid;
 }
 
 .birthdayCard:hover {
-  transform: perspective(2500px) rotate(5deg);
+  transform: perspective(2500px) rotate(3deg);
   box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.2),
     0 10px 100px rgba(0, 0, 0, 0.5);
 }
@@ -117,19 +120,19 @@ body {
 }
 
 .balloonOne:after {
-  border-bottom: 10px solid #ef476f;
+  border-bottom: 10px solid #ca0332;
 }
 
 .balloonTwo:after {
-  border-bottom: 10px solid #06d6a0;
+  border-bottom: 10px solid #0ab337;
 }
 
 .balloonThree:after {
-  border-bottom: 10px solid #ffd166;
+  border-bottom: 10px solid #ffe866;
 }
 
 .balloonFour:after {
-  border-bottom: 10px solid #118ab2;
+  border-bottom: 10px solid #0c96c3;
 }
 
 .cardInside {
@@ -144,16 +147,16 @@ body {
 }
 
 p {
-  font-family: "Brush Script MT", cursive;
+  font: sans-serif 12px;
   margin: 40px;
   color: #333;
 }
 
 .name {
   position: absolute;
-  left: 150px;
-  top: 200px;
-  color: #333;
+  left: 120px;
+  top: 230px;
+  color: #000000;
 }
 
 .back {

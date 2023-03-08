@@ -13,13 +13,13 @@ export default function Card() {
         </div>
       </div>
       <div className="cardInside">
-        <h3 className="back">HAPPY BIRTHDAY vodoo!</h3>
-        <p>Dear Friend,</p>
+        <h3 className="back">HAPPY BDAY VIEJA!</h3>
+        <p>TALIA,</p>
         <p>
           Happy birthday!! I hope your day is filled with lots of love and
           laughter! May all of your birthday wishes come true.
         </p>
-        <p className="name">Pawan</p>
+        <p className="name">Z.J.S.</p>
       </div>
     </div>
   );
