@@ -3,9 +3,10 @@ body {
   justify-content: center;
   align-items: space-evenly;
   height: 100vh;
-  background-color: #256c84;
+  background-color: #ffffff;
   background-image: url("./CHungus.jpg");
-  background-size: 250px;
+  background-size: 200px;
+  cursor: help;
 }
 
 .birthdayCard {
@@ -13,7 +14,7 @@ body {
   width: 250px;
 
   height: 350px;
-  cursor: pointer;
+  cursor: zoom-in;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -180,4 +181,13 @@ p {
 
 .chungus-toast {
   background-color: #f9e23a;
+}
+
+.music {
+  padding-left: 1vw;
+}
+
+#root {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
