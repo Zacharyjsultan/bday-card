@@ -9,7 +9,7 @@ export default function Header() {
   }, []);
   return (
     <div>
-      <h1 className="namesss">HAPPY BIRTHDAY TALIA </h1>
+      <h1 className="namesss">PBOT's 21!</h1>
       <audio
         ref={audioRef}
         src={PUTJ}

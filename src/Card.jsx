@@ -2,24 +2,31 @@ import React from "react";
 
 export default function Card() {
   return (
-    <div className="birthdayCard">
-      <div className="cardFront">
-        <h3 className="happy">FELIZ CUMPLEANOS TALI!</h3>
-        <div className="balloons">
-          <div className="balloonOne" />
-          <div className="balloonTwo" />
-          <div className="balloonThree" />
-          <div className="balloonFour" />
+    <div className="cardd">
+      <div className="birthdayCard">
+        <div className="cardFront">
+          <h3 className="happy">FELIZ CUMPLEANOS TALI!</h3>
+          <div className="balloons">
+            <div className="balloonOne" />
+            <div className="balloonTwo" />
+            <div className="balloonThree" />
+            <div className="balloonFour" />
+          </div>
         </div>
-      </div>
-      <div className="cardInside">
-        <h3 className="back">HAPPY BDAY VIEJA!</h3>
-        <p>TALIA,</p>
-        <p>
-          Happy birthday!! I hope your day is filled with lots of love and
-          laughter! May all of your birthday wishes come true.
-        </p>
-        <p className="name">Z.J.S.</p>
+        <div className="cardInside">
+          <h2 className="back">HAPPY BDAY VIEJA!</h2>
+          <p>Talia,</p>
+          <p className="writing">
+            I'm extremely proud of who you are becoming and everything you want
+            to accomplish. I always got ur back and want you to know that you
+            are capable of doing anything you want in this fucked up world and
+            that you have many people who are here to support you along the way.
+            Be honest with yourself and others about what you want and expect
+            and I am sure you will craft your heaven here on earth, on foenem's
+            grave.
+          </p>
+          <p className="name">Zach Sultan</p>
+        </div>
       </div>
     </div>
   );

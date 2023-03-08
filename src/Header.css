@@ -1,3 +1,11 @@
 h1 {
-  color: azure;
+  font-family: verdana;
+  font-weight: bold;
+  text-align: center;
+  font-size: 43px;
+  letter-spacing: 2px;
+  word-spacing: 8px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(224, 0, 71);
+  text-shadow: rgb(15, 0, 61) -9px 2px 14px;
 }

@@ -5,11 +5,13 @@ body {
   height: 100vh;
   background-color: #256c84;
   background-image: url("./CHungus.jpg");
+  background-size: 400px;
 }
 
 .birthdayCard {
   position: relative;
   width: 250px;
+
   height: 350px;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
@@ -37,14 +39,14 @@ body {
 
 .cardFront {
   position: relative;
-  background-color: #fff;
+  background-color: #ff9a9a;
   width: 250px;
   height: 350px;
   overflow: hidden;
   transform-origin: left;
   box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.2),
     30px 0 50px rgba(0, 0, 0, 0.4);
-  transition: 0.6s;
+  transition: 0.8s;
 }
 
 .happy {
@@ -65,8 +67,8 @@ body {
 .balloonThree,
 .balloonFour {
   position: absolute;
-  width: 85px;
-  height: 95px;
+  width: 95px;
+  height: 105px;
   border-radius: 50%;
 }
 
@@ -137,7 +139,7 @@ body {
 
 .cardInside {
   position: absolute;
-  background-color: #fff;
+  background-color: #fffbd9;
   width: 250px;
   height: 350px;
   z-index: -1;
@@ -147,7 +149,7 @@ body {
 }
 
 p {
-  font: sans-serif 12px;
+  font: sans-serif 8px;
   margin: 40px;
   color: #333;
 }
@@ -166,4 +168,16 @@ p {
   margin: 30px;
   outline-color: #333;
   outline-style: dotted;
+}
+
+.cardd {
+  padding: 4vh;
+  font-size: 9.3px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.chungus-toast {
+  background-color: #f9e23a;
 }

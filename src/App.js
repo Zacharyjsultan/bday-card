@@ -5,11 +5,12 @@ import Header from "./Header";
 
 function App() {
   return (
-    <div>
+    <div className="chungus-toast">
       <div>
         <Header />
       </div>
       <Card />
+      <div></div>
     </div>
   );
 }
