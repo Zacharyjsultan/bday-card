@@ -4,7 +4,7 @@ export default function Card() {
   return (
     <div className="birthdayCard">
       <div className="cardFront">
-        <h3 className="happy">HAPPY BIRTHDAY Love!</h3>
+        <h3 className="happy">FELIZ CUMPLEANOS TALI!</h3>
         <div className="balloons">
           <div className="balloonOne" />
           <div className="balloonTwo" />
